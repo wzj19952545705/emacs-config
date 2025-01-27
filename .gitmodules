@@ -14,3 +14,48 @@
 [submodule "epkg"]
 	path = lib/epkg
 	url = git@github.com:emacscollective/epkg.git
+[submodule "doom-modeline"]
+	path = lib/doom-modeline
+	url = git@github.com:seagle0128/doom-modeline.git
+[submodule "nerd-icon"]
+	path = lib/nerd-icon
+	url = https://github.com/emacsmirror/nerd-icons.git
+[submodule "shrink-path"]
+	path = lib/shrink-path
+	url = git@github.com:zbelial/shrink-path.el.git
+[submodule "dash"]
+	path = lib/dash
+	url = git@github.com:magnars/dash.el.git
+[submodule "s"]
+	path = lib/s
+	url = git@github.com:magnars/s.el.git
+[submodule "f"]
+	path = lib/f
+	url = git@github.com:rejeep/f.el.git
+[submodule "ivy"]
+	path = lib/ivy
+	url = https://github.com/abo-abo/swiper.git
+[submodule "meow"]
+	path = lib/meow
+	url = git@github.com:meow-edit/meow.git
+[submodule "yasnippet"]
+	path = lib/yasnippet
+	url = git@github.com:joaotavora/yasnippet.git
+[submodule "markdown-mode"]
+	path = lib/markdown-mode
+	url = git@github.com:jrblevin/markdown-mode.git
+[submodule "lsp-bridge"]
+	path = lib/lsp-bridge
+	url = git@github.com:manateelazycat/lsp-bridge.git
+[submodule "org-modern"]
+	path = lib/org-modern
+	url = git@github.com:minad/org-modern.git
+[submodule "xenops"]
+	path = lib/xenops
+	url = git@github.com:dandavison/xenops.git
+[submodule "aio"]
+	path = lib/aio
+	url = https://github.com/skeeto/emacs-aio.git
+[submodule "avy"]
+	path = lib/avy
+	url = git@github.com:abo-abo/avy.git
