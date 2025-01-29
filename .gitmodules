@@ -35,9 +35,6 @@
 [submodule "ivy"]
 	path = lib/ivy
 	url = https://github.com/abo-abo/swiper.git
-[submodule "meow"]
-	path = lib/meow
-	url = git@github.com:meow-edit/meow.git
 [submodule "yasnippet"]
 	path = lib/yasnippet
 	url = git@github.com:joaotavora/yasnippet.git
@@ -50,12 +47,54 @@
 [submodule "org-modern"]
 	path = lib/org-modern
 	url = git@github.com:minad/org-modern.git
-[submodule "xenops"]
-	path = lib/xenops
-	url = git@github.com:dandavison/xenops.git
 [submodule "aio"]
 	path = lib/aio
 	url = https://github.com/skeeto/emacs-aio.git
 [submodule "avy"]
 	path = lib/avy
 	url = git@github.com:abo-abo/avy.git
+[submodule "llama"]
+	path = lib/llama
+	url = git@github.com:tarsius/llama.git
+[submodule "evil"]
+	path = lib/evil
+	url = https://github.com/emacs-evil/evil.git
+[submodule "undo-tree"]
+	path = lib/undo-tree
+	url = https://gitlab.com/tsc25/undo-tree.git
+[submodule "emacs-dashboard"]
+	path = lib/emacs-dashboard
+	url = https://github.com/emacs-dashboard/emacs-dashboard.git
+[submodule "org-fragtog"]
+	path = lib/org-fragtog
+	url = git@github.com:io12/org-fragtog.git
+[submodule "org-preview"]
+	path = lib/org-preview
+	url = https://github.com/karthink/org-preview.git
+[submodule "leader"]
+	path = lib/leader
+	url = git@github.com:noctuid/general.el.git
+[submodule "cdlatex"]
+	path = lib/cdlatex
+	url = https://github.com/cdominik/cdlatex.git
+[submodule "evil-org"]
+	path = lib/evil-org
+	url = https://github.com/Somelauw/evil-org-mode.git
+[submodule "org-modern-indent"]
+	path = lib/org-modern-indent
+	url = git@github.com:jdtsmith/org-modern-indent.git
+[submodule "evil-nerd-commentor"]
+	path = lib/evil-nerd-commentor
+	url = git@github.com:redguardtoo/evil-nerd-commenter.git
+[submodule "aider"]
+	path = lib/aider
+	url = https://github.com/tninja/aider.el.git
+[submodule "magit"]
+	path = lib/magit
+	url = https://github.com/magit/magit.git
+[submodule "with-editor"]
+	path = lib/with-editor
+	url = https://github.com/magit/with-editor.git
+[submodule "queue"]
+	path = lib/queue
+	url = https://github.com/emacs-straight/queue.git

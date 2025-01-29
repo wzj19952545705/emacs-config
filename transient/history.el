@@ -1,0 +1,1 @@
+((aider-transient-menu nil))

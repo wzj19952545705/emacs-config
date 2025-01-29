@@ -17,6 +17,24 @@
 (setq display-line-numbers-type 'relative)   ; （可选）显示相对行号
 (add-to-list 'default-frame-alist '(width . 90))  ; （可选）设定启动图形界面时的初始 Frame 宽度（字符数）
 (add-to-list 'default-frame-alist '(height . 55)) ; （可选）设定启动图形界面时的初始 Frame 高度（字符数）
+(set-face-attribute 'default nil :font (font-spec :family "FiraCode Nerd Font" :size 18))
+(setq warning-minimum-level :error) 
+(setq pixel-scroll-precision-large-scroll-height 40.0)
+(setq gc-cons-threshold (* 50 1000 1000))
+(setq default-frame-alist '((fullscreen . maximized)))
 
 (add-to-list 'load-path (expand-file-name "lisp" user-emacs-directory))
 (require 'init-borg)
+(require 'init-magit)
+(require 'init-doom-modeline)
+(require 'init-nerd-icon)
+(require 'init-ivy)
+(require 'init-lspbridge)
+(require 'init-treesit)
+(require 'init-org-modern)
+(require 'init-avy)
+(require 'init-evil)
+(require 'init-dashboard)
+(require 'init-general)
+(require 'init-tabbar)
+(require 'init-aider)
