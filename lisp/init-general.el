@@ -106,6 +106,7 @@
 	  ("j" shrink-window "Shrink vertically")
 	  ("k" enlarge-window "Expand vertically")
 	  ("q" nil "quit"))
+(require 'ace-window)
 (general-nmap :prefix "SPC w"
   "r" '(hydra-window/body :which-key "Resize")
   "H" '(windmove-swap-states-left :which-key "Move this window to left")
@@ -122,6 +123,8 @@
   "l" '(enlarge-window-horizontally :which-key "Enlarge this window in width")
   "j" '(shrink-window :which-key "Shrink this window in height")
   "k" '(enlarge-window :which-key "Enlarge this window in height"))
+(general-define-key
+  "M-o" '(ace-window :which-key "Ace window"))
 ;; aider
 (general-nmap :prefix "SPC a"
   "r" '(aider-region-explain :which-key "Explain selected region")
@@ -129,6 +132,13 @@
 (general-imap :prefix "C-SPC a"
   "r" '(aider-region-explain :which-key "Explain selected region")
   "t" '(aider-run-aider :which-key "Open your ai helper"))
+;; mwim
+(autoload 'mwim "mwim" nil t)
+(autoload 'mwim-beginning "mwim" nil t)
+(autoload 'mwim-end "mwim" nil t)
+(general-define-key
+ "C-a" '(mwim-beginning :which-key "Move to the beginning of code")
+ "C-e" '(mwim-end :which-key "Move to the end of code"))
 ;; multicursor
 (require 'ace-jump-mode)
 (require 'multiple-cursors)

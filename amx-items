@@ -1,0 +1,23 @@
+
+;; ----- amx-history -----
+(
+ counsel-bookmarked-directory
+ aw-show-dispatch-help
+ ace-jump-mode
+ ace-window
+ amx
+ amx-update
+ amx-mode
+)
+
+;; ----- amx-data -----
+(
+ (amx-show-unbound-commands . 1)
+ (amx-mode . 2)
+ (amx-update . 1)
+ (amx . 1)
+ (ace-window . 2)
+ (ace-jump-mode . 1)
+ (aw-show-dispatch-help . 4)
+ (counsel-bookmarked-directory . 1)
+)

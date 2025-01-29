@@ -125,3 +125,15 @@
 [submodule "evil-mc"]
 	path = lib/evil-mc
 	url = https://github.com/gabesoft/evil-mc.git
+[submodule "amx"]
+	path = lib/amx
+	url = git@github.com:DarwinAwardWinner/amx.git
+[submodule "mwim"]
+	path = lib/mwim
+	url = git@github.com:alezost/mwim.el.git
+[submodule "ace-window"]
+	path = lib/ace-window
+	url = git@github.com:abo-abo/ace-window.git
+[submodule "marginalia"]
+	path = lib/marginalia
+	url = git@github.com:minad/marginalia.git

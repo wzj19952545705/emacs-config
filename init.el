@@ -28,7 +28,10 @@
 (setq gc-cons-threshold (* 50 1000 1000))
 (setq default-frame-alist '((fullscreen . maximized)))
 
+(require 'amx)
+(amx-mode)
 (add-to-list 'load-path (expand-file-name "lisp" user-emacs-directory))
+
 (require 'init-borg)
 (require 'init-magit)
 (require 'init-doom-modeline)
@@ -46,3 +49,4 @@
 (require 'init-super-save)
 (require 'init-rainbow-delimiter)
 (require 'init-dirvish)
+(require 'init-marginalia)
