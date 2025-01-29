@@ -1,0 +1,11 @@
+;;; -*- coding: utf-8; mode: lisp-data -*-
+(("/home/wzj/.emacs.d/lisp/"
+  (dired-filename . "/home/wzj/.emacs.d/lisp/init-dashboard.el"))
+ ("/home/wzj/.emacs.d/lisp/init-evil.el" . 479)
+ ("/home/wzj/.emacs.d/lisp/init-dirvish.el" . 159)
+ ("/home/wzj/.emacs.d/lisp/init-general.el" . 6888)
+ ("/home/wzj/.emacs.d/init.el" . 1515)
+ ("/home/wzj/.emacs.d/lisp/init-super-save.el" . 364)
+ ("/home/wzj/.emacs.d/lisp/init-rainbow-delimiter.el" . 112)
+ ("/home/wzj/tinker/source/epolar3.f" . 18447)
+ ("/home/wzj/tinker/source/epolar3.org" . 20763))

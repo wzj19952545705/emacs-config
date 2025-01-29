@@ -14,6 +14,11 @@
 (when (display-graphic-p) (toggle-scroll-bar -1)) ; 图形界面时关闭滚动条
 
 (savehist-mode 1)                            ; （可选）打开 Buffer 历史记录保存
+(save-place-mode 1)
+(global-auto-revert-mode 1)
+(setq scroll-step            1
+      scroll-conservatively  10000)
+(setq global-auto-revert-non-file-buffers nil)
 (setq display-line-numbers-type 'relative)   ; （可选）显示相对行号
 (add-to-list 'default-frame-alist '(width . 90))  ; （可选）设定启动图形界面时的初始 Frame 宽度（字符数）
 (add-to-list 'default-frame-alist '(height . 55)) ; （可选）设定启动图形界面时的初始 Frame 高度（字符数）
@@ -38,3 +43,6 @@
 (require 'init-general)
 (require 'init-tabbar)
 (require 'init-aider)
+(require 'init-super-save)
+(require 'init-rainbow-delimiter)
+(require 'init-dirvish)

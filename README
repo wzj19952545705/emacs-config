@@ -1,0 +1,34 @@
+# This is a very simple emacs config
+
+## Package Manager
+
+Borg
+
+## What Main packages does it have
+
+### Programe
+
+- lsp-bridge
+
+### AI helper
+
+- aider
+
+### UI
+
+- doom-dashboard
+- nerd-icon
+- doom-modeline
+
+### Keymap
+
+- general
+- evil
+
+### Better search
+
+- ivy
+- avy
+- swiper
+
+That almost all it can do. Not much.

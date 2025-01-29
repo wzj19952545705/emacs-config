@@ -1,4 +1,4 @@
-(add-hook 'window-setup-hook #'tab-bar-mode-hook)
+(add-hook 'window-setup-hook #'tab-bar-mode)
 (setq tab-bar-separator ""
     tab-bar-new-tab-choice "*scratch*"
     tab-bar-tab-name-truncated-max 20

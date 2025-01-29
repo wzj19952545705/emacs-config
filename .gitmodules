@@ -98,3 +98,30 @@
 [submodule "queue"]
 	path = lib/queue
 	url = https://github.com/emacs-straight/queue.git
+[submodule "hydra"]
+	path = lib/hydra
+	url = https://github.com/abo-abo/hydra.git
+[submodule "super-save"]
+	path = lib/super-save
+	url = https://github.com/bbatsov/super-save.git
+[submodule "rainbow-delimiters"]
+	path = lib/rainbow-delimiters
+	url = https://github.com/Fanael/rainbow-delimiters.git
+[submodule "ace-mc"]
+	path = lib/ace-mc
+	url = git@github.com:mm--/ace-mc.git
+[submodule "highlight-blocks"]
+	path = lib/highlight-blocks
+	url = git@github.com:Fanael/highlight-blocks.git
+[submodule "ace-jump-mode"]
+	path = lib/ace-jump-mode
+	url = git@github.com:winterTTr/ace-jump-mode.git
+[submodule "dirvish"]
+	path = lib/dirvish
+	url = git@github.com:alexluigit/dirvish.git
+[submodule "multiple-cursors"]
+	path = lib/multiple-cursors
+	url = git@github.com:magnars/multiple-cursors.el.git
+[submodule "evil-mc"]
+	path = lib/evil-mc
+	url = https://github.com/gabesoft/evil-mc.git
