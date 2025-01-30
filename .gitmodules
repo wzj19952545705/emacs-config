@@ -17,9 +17,6 @@
 [submodule "doom-modeline"]
 	path = lib/doom-modeline
 	url = git@github.com:seagle0128/doom-modeline.git
-[submodule "nerd-icon"]
-	path = lib/nerd-icon
-	url = https://github.com/emacsmirror/nerd-icons.git
 [submodule "shrink-path"]
 	path = lib/shrink-path
 	url = git@github.com:zbelial/shrink-path.el.git
@@ -34,7 +31,7 @@
 	url = git@github.com:rejeep/f.el.git
 [submodule "ivy"]
 	path = lib/ivy
-	url = https://github.com/abo-abo/swiper.git
+	url = git@github.com:abo-abo/swiper.git
 [submodule "yasnippet"]
 	path = lib/yasnippet
 	url = git@github.com:joaotavora/yasnippet.git
@@ -49,7 +46,7 @@
 	url = git@github.com:minad/org-modern.git
 [submodule "aio"]
 	path = lib/aio
-	url = https://github.com/skeeto/emacs-aio.git
+	url = git@github.com:skeeto/emacs-aio.git
 [submodule "avy"]
 	path = lib/avy
 	url = git@github.com:abo-abo/avy.git
@@ -58,7 +55,7 @@
 	url = git@github.com:tarsius/llama.git
 [submodule "evil"]
 	path = lib/evil
-	url = https://github.com/emacs-evil/evil.git
+	url = git@github.com:emacs-evil/evil.git
 [submodule "undo-tree"]
 	path = lib/undo-tree
 	url = https://gitlab.com/tsc25/undo-tree.git
@@ -88,10 +85,10 @@
 	url = git@github.com:redguardtoo/evil-nerd-commenter.git
 [submodule "aider"]
 	path = lib/aider
-	url = https://github.com/tninja/aider.el.git
+	url = git@github.com:tninja/aider.el.git
 [submodule "magit"]
 	path = lib/magit
-	url = https://github.com/magit/magit.git
+	url = git@github.com:magit/magit.git
 [submodule "with-editor"]
 	path = lib/with-editor
 	url = https://github.com/magit/with-editor.git
@@ -100,13 +97,13 @@
 	url = https://github.com/emacs-straight/queue.git
 [submodule "hydra"]
 	path = lib/hydra
-	url = https://github.com/abo-abo/hydra.git
+	url = git@github.com:abo-abo/hydra.git
 [submodule "super-save"]
 	path = lib/super-save
-	url = https://github.com/bbatsov/super-save.git
+	url = git@github.com:bbatsov/super-save.git
 [submodule "rainbow-delimiters"]
 	path = lib/rainbow-delimiters
-	url = https://github.com/Fanael/rainbow-delimiters.git
+	url = git@github.com:Fanael/rainbow-delimiters.git
 [submodule "ace-mc"]
 	path = lib/ace-mc
 	url = git@github.com:mm--/ace-mc.git
@@ -137,3 +134,6 @@
 [submodule "marginalia"]
 	path = lib/marginalia
 	url = git@github.com:minad/marginalia.git
+[submodule "nerd-icons"]
+	path = lib/nerd-icons
+	url = git@github.com:rainstormstudio/nerd-icons.el.git
