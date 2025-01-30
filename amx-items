@@ -1,13 +1,13 @@
 
 ;; ----- amx-history -----
 (
- counsel-bookmarked-directory
- aw-show-dispatch-help
- ace-jump-mode
- ace-window
- amx
- amx-update
- amx-mode
+ global-hl-line-mode
+ hl-line-mode
+ highlight-blocks-mode
+ recover-this-file
+ doom-modeline-mode
+ eval-buffer
+ completion-preview-mode
 )
 
 ;; ----- amx-data -----
@@ -20,4 +20,11 @@
  (ace-jump-mode . 1)
  (aw-show-dispatch-help . 4)
  (counsel-bookmarked-directory . 1)
+ (completion-preview-mode . 1)
+ (eval-buffer . 1)
+ (doom-modeline-mode . 1)
+ (recover-this-file . 1)
+ (highlight-blocks-mode . 2)
+ (hl-line-mode . 4)
+ (global-hl-line-mode . 1)
 )

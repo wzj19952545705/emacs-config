@@ -101,15 +101,9 @@
 [submodule "super-save"]
 	path = lib/super-save
 	url = git@github.com:bbatsov/super-save.git
-[submodule "rainbow-delimiters"]
-	path = lib/rainbow-delimiters
-	url = git@github.com:Fanael/rainbow-delimiters.git
 [submodule "ace-mc"]
 	path = lib/ace-mc
 	url = git@github.com:mm--/ace-mc.git
-[submodule "highlight-blocks"]
-	path = lib/highlight-blocks
-	url = git@github.com:Fanael/highlight-blocks.git
 [submodule "ace-jump-mode"]
 	path = lib/ace-jump-mode
 	url = git@github.com:winterTTr/ace-jump-mode.git
