@@ -9,7 +9,7 @@
 (add-hook 'org-mode-hook 'evil-org-mode)
 (evil-org-set-key-theme '(navigation insert textobjects additional calendar))
 (require 'evil-org-agenda)
-(evil-org-agenda-set-keys)
+(evil-org-agenda-set-keys);
 
 (define-key evil-normal-state-map (kbd "M-/") 'evilnc-comment-or-uncomment-lines)
 (require 'evil-mc)

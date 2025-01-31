@@ -67,6 +67,7 @@
  "i" '(org-insert-structure-template :which-key "Insert a block")
  "t" '(org-table-create :which-key "Create a table in org mode"))
 ;; tab
+(require 'hydra)
 (defhydra hydra-tab (:hint nil)
 	  ("." tab-next "Go to next tab")
 	  ("," tab-previous "Go to previous tab")
@@ -148,4 +149,7 @@
 ;; dirvish
 (general-define-key
  "M-d" '(dirvish :which-key "Open file maneger"))
+;; completion
+(general-define-key
+  "C-i" '(completion-at-point :which-key "Trigger completion"))
 (provide 'init-general)

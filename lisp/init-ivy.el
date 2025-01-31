@@ -1,4 +1,6 @@
 (require 'ivy)
+(require 'swiper)
+(require 'counsel)
 (ivy-mode)
 (setq ivy-use-virtual-buffers t)
 (setq enable-recursive-minibuffers t)

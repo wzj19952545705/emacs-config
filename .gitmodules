@@ -38,9 +38,6 @@
 [submodule "markdown-mode"]
 	path = lib/markdown-mode
 	url = git@github.com:jrblevin/markdown-mode.git
-[submodule "lsp-bridge"]
-	path = lib/lsp-bridge
-	url = git@github.com:manateelazycat/lsp-bridge.git
 [submodule "org-modern"]
 	path = lib/org-modern
 	url = git@github.com:minad/org-modern.git
@@ -85,7 +82,7 @@
 	url = git@github.com:tninja/aider.el.git
 [submodule "magit"]
 	path = lib/magit
-	url = git@github.com:magit/magit.git
+	url = https://github.com/magit/magit.git
 [submodule "with-editor"]
 	path = lib/with-editor
 	url = git@github.com:magit/with-editor.git
@@ -128,3 +125,6 @@
 [submodule "nerd-icons"]
 	path = lib/nerd-icons
 	url = git@github.com:rainstormstudio/nerd-icons.el.git
+[submodule "tab-spaces"]
+	path = lib/tab-spaces
+	url = git@github.com:mclear-tools/tabspaces.git

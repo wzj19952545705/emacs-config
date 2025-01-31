@@ -3,7 +3,7 @@
 (require 's)
 (require 'f)
 (require 'doom-modeline)
-(add-hook 'after-init-hook #'doom-modeline-mode)
+(doom-modeline-mode)
 ;; If non-nil, cause imenu to see `doom-modeline' declarations.
 ;; This is done by adjusting `lisp-imenu-generic-expression' to
 ;; include support for finding `doom-modeline-def-*' forms.
