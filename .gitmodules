@@ -59,24 +59,21 @@
 [submodule "undo-tree"]
 	path = lib/undo-tree
 	url = https://gitlab.com/tsc25/undo-tree.git
-[submodule "emacs-dashboard"]
-	path = lib/emacs-dashboard
-	url = https://github.com/emacs-dashboard/emacs-dashboard.git
 [submodule "org-fragtog"]
 	path = lib/org-fragtog
 	url = git@github.com:io12/org-fragtog.git
 [submodule "org-preview"]
 	path = lib/org-preview
-	url = https://github.com/karthink/org-preview.git
+	url = git@github.com:karthink/org-preview.git
 [submodule "leader"]
 	path = lib/leader
 	url = git@github.com:noctuid/general.el.git
 [submodule "cdlatex"]
 	path = lib/cdlatex
-	url = https://github.com/cdominik/cdlatex.git
+	url = git@github.com:cdominik/cdlatex.git
 [submodule "evil-org"]
 	path = lib/evil-org
-	url = https://github.com/Somelauw/evil-org-mode.git
+	url = git@github.com:Somelauw/evil-org-mode.git
 [submodule "org-modern-indent"]
 	path = lib/org-modern-indent
 	url = git@github.com:jdtsmith/org-modern-indent.git
@@ -91,10 +88,10 @@
 	url = git@github.com:magit/magit.git
 [submodule "with-editor"]
 	path = lib/with-editor
-	url = https://github.com/magit/with-editor.git
+	url = git@github.com:magit/with-editor.git
 [submodule "queue"]
 	path = lib/queue
-	url = https://github.com/emacs-straight/queue.git
+	url = git@github.com:emacs-straight/queue.git
 [submodule "hydra"]
 	path = lib/hydra
 	url = git@github.com:abo-abo/hydra.git
@@ -115,7 +112,7 @@
 	url = git@github.com:magnars/multiple-cursors.el.git
 [submodule "evil-mc"]
 	path = lib/evil-mc
-	url = https://github.com/gabesoft/evil-mc.git
+	url = git@github.com:gabesoft/evil-mc.git
 [submodule "amx"]
 	path = lib/amx
 	url = git@github.com:DarwinAwardWinner/amx.git
