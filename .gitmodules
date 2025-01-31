@@ -128,3 +128,6 @@
 [submodule "tab-spaces"]
 	path = lib/tab-spaces
 	url = git@github.com:mclear-tools/tabspaces.git
+[submodule "transient"]
+	path = lib/transient
+	url = git@github.com:magit/transient.git
