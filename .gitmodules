@@ -131,3 +131,21 @@
 [submodule "transient"]
 	path = lib/transient
 	url = git@github.com:magit/transient.git
+[submodule "emacs-kaolin-themes"]
+	path = lib/emacs-kaolin-themes
+	url = git@github.com:ogdenwebb/emacs-kaolin-themes.git
+[submodule "autothermer"]
+	path = lib/autothermer
+	url = git@github.com:jasonm23/autothemer.git
+[submodule "corfu"]
+	path = lib/corfu
+	url = git@github.com:minad/corfu.git
+[submodule "cape"]
+	path = lib/cape
+	url = git@github.com:minad/cape.git
+[submodule "orderless"]
+	path = lib/orderless
+	url = git@github.com:oantolin/orderless.git
+[submodule "embark"]
+	path = lib/embark
+	url = git@github.com:oantolin/embark.git
