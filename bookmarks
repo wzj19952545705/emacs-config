@@ -1,0 +1,11 @@
+;;;; Emacs Bookmark Format Version 1;;;; -*- coding: utf-8-emacs; mode: lisp-data -*-
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("chgtrn-initialize"
+  (filename . "~/tinker/source/echgtrn.f")
+  (front-context-string . "      mode = 'CH")
+  (rear-context-string . "ectric / dielec\n")
+  (position . 2538)
+  (last-modified 26528 43441 74723 319000))
+)

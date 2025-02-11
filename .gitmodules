@@ -146,6 +146,9 @@
 [submodule "orderless"]
 	path = lib/orderless
 	url = git@github.com:oantolin/orderless.git
-[submodule "embark"]
-	path = lib/embark
-	url = git@github.com:oantolin/embark.git
+[submodule "highlight-indent-guide"]
+	path = lib/highlight-indent-guide
+	url = git@github.com:DarthFennec/highlight-indent-guides.git
+[submodule "annotate"]
+	path = lib/annotate
+	url = git@github.com:bastibe/annotate.el.git

@@ -6,7 +6,23 @@
  "C-x C-e" '(eval-buffer :which-key "Evaluate buffer code"))
 (general-imap
   "C-v" 'yank)
+;; marginalia
+(general-define-key :keymap minibuffer-local-map
+		    "M-a" '(marginalia-cycle :which-key "Cycle minibuffer comment"))
+;; evil packages
+(define-key evil-normal-state-map (kbd "K") 'pixel-scroll-down)
+(define-key evil-normal-state-map (kbd "J") 'pixel-scroll-up)
+(define-key evil-normal-state-map (kbd "M-/") 'evilnc-comment-or-uncomment-lines)
+(general-vmap :keymap evil-mc-key-map
+  "Q" #'evil-mc-undo-all-cursors
+  "A" #'evil-mc-make-cursor-in-visual-selection-end
+  "I" #'evil-mc-make-cursor-in-visual-selection-beg)
 ;; buffer operation
+(general-define-key
+ "C-x B" 'tabspaces-switch-buffer-and-tab
+ "C-x r" 'counsel-buffer-or-recentf
+ "C-x w" 'counsel-switch-buffer-other-window
+ "C-x b" 'counsel-switch-buffer)
 (general-nmap :prefix "SPC b"
   "K" '(kill-buffer :which-key "Select a buffer to kill")
   "k" '(kill-current-buffer :which-key "Kill current buffer")
@@ -127,17 +143,22 @@
 (general-define-key
   "M-o" '(ace-window :which-key "Ace window"))
 ;; aider
+(define-key evil-visual-state-map (kbd "SPC") nil)
 (general-nmap :prefix "SPC a"
-  "r" '(aider-region-explain :which-key "Explain selected region")
-  "t" '(aider-run-aider :which-key "Open your ai helper"))
+  "t" '(aider-transient-menu :which-key "Open aider menu")
+  "o" '(aider-run-aider :which-key "Open your ai helper"))
 (general-imap :prefix "C-SPC a"
-  "r" '(aider-region-explain :which-key "Explain selected region")
-  "t" '(aider-run-aider :which-key "Open your ai helper"))
+  "t" '(aider-transient-menu :which-key "Open aider menu")
+  "o" '(aider-run-aider :which-key "Open your ai helper"))
+(general-vmap :prefix "SPC a"
+  "s" '(aider-send-region :which-key "Send code in region")
+  "e" '(aider-region-explain :which-key "Explain selected region"))
 ;; mwim
 (autoload 'mwim "mwim" nil t)
 (autoload 'mwim-beginning "mwim" nil t)
 (autoload 'mwim-end "mwim" nil t)
-(general-define-key
+(define-key evil-normal-state-map (kbd "C-e") nil)
+(general-nmap
  "C-a" '(mwim-beginning :which-key "Move to the beginning of code")
  "C-e" '(mwim-end :which-key "Move to the end of code"))
 ;; multicursor
@@ -149,7 +170,12 @@
 ;; dirvish
 (general-define-key
  "M-d" '(dirvish :which-key "Open file maneger"))
-;; completion
-(general-define-key
-  "C-i" '(completion-at-point :which-key "Trigger completion"))
+;; code folding
+(general-define-key :prefix "C-c"
+ "F" '(hs-hide-all :which-key "Fold all codes")
+ "s" '(hs-show-all :which-key "Show all folding region")
+ "f" '(hs-toggle-hiding :which-key "Toggle code folding"))
+;; annotate
+(general-define-key :prefix "C-c"
+ "C-a" '(annotate-annotate :which-key "Create, modify or delete annotation"))
 (provide 'init-general)

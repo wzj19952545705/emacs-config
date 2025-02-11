@@ -1,13 +1,13 @@
 
 ;; ----- amx-history -----
 (
+ ace-window-display-mode
  aider-run-aider
- aider-help
- aider-ask-question
- doom-modeline-mode
- cd
- 5x5
- amx
+ eval-buffer
+ aider-send-region
+ annotate-annotate
+ annotate-toggle-annotation-text
+ evil-mc-make-all-cursors
 )
 
 ;; ----- amx-data -----
@@ -15,5 +15,46 @@
  (doom-modeline-mode . 1)
  (aider-ask-question . 1)
  (aider-help . 1)
- (aider-run-aider . 4)
+ (aider-run-aider . 10)
+ (aider-transient-menu . 1)
+ (tabspaces-ivy-switch-buffer . 4)
+ (tabspaces-switch-to-buffer . 3)
+ (global-unset-key . 2)
+ (global-set-key . 1)
+ (evil-mc-mode . 2)
+ (aider-change-model . 2)
+ (aider-exit . 1)
+ (aider-send-region . 4)
+ (load-theme . 7)
+ (eval-buffer . 5)
+ (corfu-mode . 5)
+ (embark-dwim . 1)
+ (embark-act . 3)
+ (dirvish . 1)
+ (tabspaces-switch-buffer-and-tab . 1)
+ (tabspaces-kill-buffers-close-workspace . 4)
+ (tabspaces-clear-buffers . 2)
+ (tab-switcher . 3)
+ (ibuffer . 1)
+ (tabify . 1)
+ (describe-keymap . 1)
+ (dirvish-override-dired-mode . 2)
+ (kill-buffer . 1)
+ (tab-next . 1)
+ (tab-previous . 1)
+ (kill-emacs . 1)
+ (hs-minor-mode . 2)
+ (hs-minor-mode-menu . 1)
+ (hs-toggle-hiding . 4)
+ (load-library . 1)
+ (highlight-indent-guides-mode . 13)
+ (swiper-avy . 1)
+ (aider-region-explain . 1)
+ (mark-paragraph . 2)
+ (bookmark-set . 1)
+ (annotate-mode . 1)
+ (evil-mc-make-all-cursors . 1)
+ (annotate-annotate . 2)
+ (annotate-toggle-annotation-text . 1)
+ (ace-window-display-mode . 1)
 )

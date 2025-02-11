@@ -1,4 +1,5 @@
-;(add-hook 'after-init-hook #'tabspace-mode-hook)
+(require 'tabspaces)
+(add-hook 'after-init-hook #'tabspace-mode-hook)
 (setq tabspaces-use-filtered-buffers-as-default t
       tabspaces-default-tab "Default"
       tabspaces-remove-to-default t
@@ -43,5 +44,6 @@
             :action #'ivy--switch-buffer-action
             :matcher #'ivy--switch-buffer-matcher
             :caller 'ivy-switch-buffer))
+
 (add-hook 'after-init-hook #'my--tabspace-setup)
 (provide 'init-tabbar)

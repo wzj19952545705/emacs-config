@@ -2,13 +2,17 @@
 
 ## Package Manager
 
-Borg
+None
 
-## What Main packages does it have
+## Theme
 
-### Programe
+Kaolin
 
-- lsp-bridge
+## Main packages
+
+### LSP
+
+- eglot
 
 ### AI helper
 
@@ -16,7 +20,6 @@ Borg
 
 ### UI
 
-- doom-dashboard
 - nerd-icon
 - doom-modeline
 
@@ -31,4 +34,14 @@ Borg
 - avy
 - swiper
 
-That almost all it can do. Not much.
+### Completion
+
+- corfu
+- cape
+- orderless
+
+### Org
+
+- org-modern
+- org-modern-indent
+- org-evil
